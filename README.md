@@ -18,23 +18,23 @@ Instructions
    Stable.
  * It will be compiled with the following flags:
 
-        `gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb myecho.c -o myecho`
- * The program will be executed as follows (`<n>` is the number of unsigned
-   integers to be piped to stdin)
+          gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb myecho.c -o myecho
+ * The program will be executed as follows:
 
-        `dd if=/dev/urandom bs=4 count=<n> | myecho`
+          # <n> is the number of unsigned integers to be piped to stdin
+          dd if=/dev/urandom bs=4 count=<n> | myecho
 6. Add a program written in C to the project that provides a recursive
    implementation of the quicksort algorithm. The program will take a binary
    stream of unsigned integers as input and print them in sorted order to
    standard out.  The program should compile with GCC on a x86\_64 GNU/Linux
    system running Debian Stable.
+ * It will be compiled with the following flags:
+
+          gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb mysort.c -o mysort
  * The program will be executed as follows:
 
-        `gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb mysort.c -o mysort`
- * The program will be executed as follows (`<n>` is the number of unsigned
-   integers to be piped to stdin)
-
-        `dd if=/dev/urandom bs=4 count=<n> | mysort`
+          # <n> is the number of unsigned integers to be piped to stdin)
+          dd if=/dev/urandom bs=4 count=<n> | mysort
 7. Extra Credit: For a list of 256 integers we would expect on average to see
    2048 iterations through the algorithm.  How many would we expect for lists
    of size 2, 1024, 2048, and 65536?
