@@ -39,7 +39,10 @@ Instructions
    2048 iterations through the algorithm.  How many would we expect for lists
    of size 2, 1024, 2048, and 65536?
 8. Add any notes regarding your solution to the *Solution Notes* section.
-9. Submit a link to your completed solution as well as any questions to
+9. Bonus Points: Like you, we are pedantic nerds. Please let us know if you
+   find anything during this process or in our instructions that could use
+   improvement.
+10. Submit a link to your completed solution as well as any questions to
    <jcook@camber.com>.
 
 
