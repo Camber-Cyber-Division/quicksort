@@ -18,7 +18,7 @@ Instructions
    Stable.
  * It will be compiled with the following flags:
 
-        gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb myecho.c -o myecho
+        `gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb myecho.c -o myecho`
  * The program will be executed as follows (`<n>` is the number of unsigned
    integers to be piped to stdin)
 
@@ -30,7 +30,7 @@ Instructions
    system running Debian Stable.
  * The program will be executed as follows:
 
-        gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb mysort.c -o mysort
+        `gcc -std=c99 -pedantic -Wall -Werror -Wextra -O0 -g -ggdb mysort.c -o mysort`
  * The program will be executed as follows (`<n>` is the number of unsigned
    integers to be piped to stdin)
 
